@@ -1,0 +1,83 @@
+.events-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.event-card {
+    width:100%;
+    background-color: var(--light);
+    border-radius: 20px;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.event-image {
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+}
+
+.event-serial {
+    position: absolute;
+    top:5%;
+    left: 5%;
+    background-color: var(--light);
+    display: inline-block;
+    padding: 7px;
+    border-radius: 6px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9em;
+    font-weight: 600;
+    color: var(--primary);
+}
+
+.event-image img {
+    height: 100%;
+}
+
+.event-header {
+    text-align: center;
+    padding-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3em;
+}
+
+.event-game {
+    text-align: center;
+    padding-top: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9em;
+    color: var(--gray);
+    font-weight: 100;
+}
+
+.event-date {
+    text-align: center;
+    padding-top: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9em;
+    color: var(--primary);
+}
+
+.event-venue {
+    padding-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9em;
+    color: var(--primary);
+}
+
+.event-more {
+    text-align: center;
+    padding-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9em;
+}
+
+.event-more a {
+    color: #4f9921;
+}

@@ -1,0 +1,26 @@
+.event-detail-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+    color: var(--light);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.event-label {
+    font-size: 1.3em;   
+}
+
+.event-game {
+    color: var(--secondary);
+    padding-bottom: 20px;
+    font-size: 1em;
+}
+
+.event-date {
+    font-size: 1em;
+}
+
+.event-venue {
+    padding-bottom: 20px;
+}

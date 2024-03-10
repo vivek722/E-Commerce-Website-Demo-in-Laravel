@@ -1,0 +1,163 @@
+.button1{
+    background-color: var(--primary);
+    border: none;
+    padding: 10px 30px;
+    border-radius: 40px;
+    margin: 5px;
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+    font-family:  Helvetica, sans-serif;
+    font-size: 0.9em;
+}
+
+.page-heading {
+    text-align: center!important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif!important;
+    padding: 10px!important;
+    padding-top: 20px!important;
+    border-bottom: dashed 2px var(--secondary)!important;
+}
+
+
+.page-heading h2{
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.form-container {
+    width:100%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container form {
+    width: 100%;
+}
+
+.form-wrapper {
+  padding: 10px;
+  box-sizing: border-box ;
+  width:100%;
+}
+
+.form-element-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    box-sizing: border-box;
+   
+    margin: 10px 0;
+}
+
+.form-label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    font-weight: 600;
+}
+
+.form-input{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 20px;
+    width: 80%;
+    border: solid 1px var(--black);
+    outline: none;
+    background-color: #f0f6ed;
+    font-size: 1em;
+}
+
+
+.form-textarea {
+    width: 80%;
+    min-width: 80%;
+    max-width: 80%;
+    height: 100px;
+}
+
+.table-container {
+    width:100%;
+    padding: 10px 30px;
+    box-sizing: border-box;
+}
+
+.table-container table{
+    /* border-collapse: collapse; */
+    border-radius: 10px;
+    overflow: hidden;
+    border: solid 1px var(--secondary);
+    width: 100%;
+}
+
+.table-container table th,td {
+    padding: 10px 20px;
+    text-align: left;
+    font-family: verdana;
+    font-size: 1em;
+}
+
+.table-container table th {
+    background-color: #e2f5d7;
+}
+
+.table-container table td {
+    background-color: #fff;
+}
+/* login */
+.login-form-container {
+    width:100%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form-container form {
+    width: 100%;
+}
+
+.login-form-wrapper {
+  padding: 10px;
+  box-sizing: border-box;
+  width:100%;
+}
+
+.login-form-element-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 10px 0;
+}
+
+.login-form-label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    font-weight: 600;
+    color: var(--black);
+    width: 40%;
+}
+
+.login-form-input{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 20px;
+    width: 40%;
+    border: solid 1px var(--gray);
+    outline: none;
+    border-radius: 30px;
+    background-color: #d0eabf;
+    font-size: 1em;
+    color: var(--light);
+}
+
+.login-form-input:focus {
+    background-color: var(--light-bg);
+    color: var(--light-bg);
+}

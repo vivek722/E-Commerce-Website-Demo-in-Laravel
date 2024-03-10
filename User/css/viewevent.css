@@ -1,0 +1,62 @@
+.viewevent-container {
+    display: flex;
+    color: var(--light);
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.participate-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.event-image img{
+    max-width: 600px;
+    margin-bottom: 30px;
+}
+
+.event-terms {
+    padding: 10px;
+}
+
+.event-detail-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.event-label {
+    font-size: 1.3em;   
+}
+
+.event-game {
+    color: var(--black);
+    padding-bottom: 20px;
+    font-size: 1em;
+}
+
+.event-date {
+    font-size: 1em;
+}
+
+.event-venue {
+    padding-bottom: 20px;
+}
+
+.event-rules, .event-details{
+    margin: 10px 0;
+    border-top: solid 2px var(--secondary);
+    border-bottom: solid 2px var(--secondary);
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.event-rules h4, .event-details h4 {
+    padding-bottom: 10px;
+    color: var(--secondary);
+}
